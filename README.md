@@ -12,4 +12,5 @@ Commands used;
 
 ## Manage Permissions/Exploration notes
 - I granted read only permissions with; "icacls ".\backup\*" /grant Users:R. I also had to deny write privelages using; icacls ".\backup\*" /deny Users:W.
-- 
+- I added a cd command at the beginning of the script, since I'm not the best at remembering to change to the correct directory the first time.
+- I enjoy the $sourceFolder and $backupFolder commands, it saves time from having to type out a whole file path.
